@@ -1,0 +1,29 @@
+header{
+    background-color: darkcyan;
+    margin: 10px;
+    
+}
+
+.logo{
+    width: 40%;
+    float: left;
+    display: flex; 
+}
+
+.nav{
+    width: 60%;
+    display: inline; 
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+  
+}
