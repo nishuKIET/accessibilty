@@ -1,0 +1,33 @@
+.parent_row{
+    width: 100%;
+}
+
+.image_col{
+    width: 50%;
+    /* height: 100%; */
+    float: left;
+}
+
+.image{
+    width: 100%;
+    height: 900px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content_col{
+    width: 50%;
+    float: left;
+}
+
+button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 30px;
+    width: 100px;
+}
