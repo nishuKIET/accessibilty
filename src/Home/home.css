@@ -1,0 +1,9 @@
+.Carousel{
+    background-color: burlywood;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-indicators{
+    display: none;
+}

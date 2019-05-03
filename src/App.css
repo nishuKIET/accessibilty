@@ -1,0 +1,22 @@
+.NavigationList{
+  list-style: none;
+  margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+  display: inline;
+  float: left;
+}
+.Carousel-images{
+  width: 100%;
+  height: 500px;
+  background-color: burlywood;
+}
+
+.Main-container{
+  margin: 20px;
+ 
+  
+}
