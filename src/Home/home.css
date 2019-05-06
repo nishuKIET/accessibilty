@@ -1,9 +1,16 @@
 .Carousel{
-    background-color: burlywood;
+    /* background-color: burlywood; */
     top: 50%;
     transform: translateY(-50%);
 }
 
 .carousel-indicators{
     display: none;
+}
+
+.first_img{
+    width: 100%;
+    text-align: center;
+  height: 500px;
+  background-color: burlywood;
 }

@@ -8,6 +8,7 @@
 li{
   display: inline;
   float: left;
+  font-weight: 500;
 }
 .Carousel-images{
   width: 100%;
@@ -17,6 +18,19 @@ li{
 
 .Main-container{
   margin: 20px;
- 
-  
+}
+
+.btm-img{
+  width: 100%;
+  height: 70px;
+}
+.second_page{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

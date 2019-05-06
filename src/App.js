@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './assets/tricon-logo.png';
+import btm from './assets/bottom_first_img.PNG';
+
 import './App.css';
 import About from './About/about';
 import HomeImages from './Home/home_images';
@@ -22,10 +24,14 @@ class App extends React.Component {
             <li>Blog</li>
             <li>Contact us</li>
           </ul>
-          {this.props.children}
+          {/* {this.props.children} */}
         </div>
-        <div className="Carousel-images"><HomeImages /></div>
-        <div><About /></div>
+        <div className="Carousel-images"><HomeImages/></div>
+
+  
+
+        <img src={btm} className="btm-img" alt="logo" />
+        <div className = "second_page"><About /></div>
       </div>
 
 
